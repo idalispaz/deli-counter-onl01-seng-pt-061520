@@ -7,6 +7,6 @@ describe “#line” do
       it “should say the line is empty” do
   expect($stdout).to receive(:puts).with(“The line is currently empty.“)
         line(katz_deli)
-      end
+    end
 end
    
