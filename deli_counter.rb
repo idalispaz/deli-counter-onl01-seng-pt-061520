@@ -30,7 +30,7 @@ describe ‘Deli Counter’ do
     end
     context “there are already people in line” do
       it “should add a person to the end of the line” do
-   [“item1”, “item2"]
+   [“item1”, "item2"]
         expect($stdout).to receive(:puts).with(“Welcome, Grace. You are number 4 in line.“)
         take_a_number(other_deli, “Grace”)
         expect(other_deli).to eq(%w(Logan Avi Spencer Grace))
@@ -61,21 +61,6 @@ describe ‘Deli Counter’ do
     end
   end
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
